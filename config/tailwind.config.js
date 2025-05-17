@@ -9,7 +9,15 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: {
+          100: "#ebf8ff",
+          300: "#90cdf4",
+          500: "#4949e1",
+        },
+      },
       fontFamily: {
+        poppins: ['Poppins','sans-serif'],
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
     },
